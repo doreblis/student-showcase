@@ -17,6 +17,7 @@ body {
   background-color: #a8a8a8;
 }
 
+
 @media (min-width: 415px) {
   .content {
     grid-template-columns: repeat(3, 1fr);

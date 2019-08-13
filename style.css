@@ -1,20 +1,51 @@
 * {
-  background-color: gray;
+  background-color: lightgrey;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
+main{
+  margin: 180px;
+}
 
+ul {
+  list-style: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  font-size: large;
+}
+
+table, td {
+  border: 1px solid black;
+}
+
+table {
+  align-items: center;
+  margin: auto;
+}
 
 #fahedPage {
-    background-color: lightblue; 
+    background-color: lightblue;
 }
+  /* Link botton style */
+  a#fahedBtn {
+    background-color: #476070;
+    color: antiquewhite;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
 #brandon {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
 }
 
-#brandonContact {
-  list-style: none;
-}
 
 #brandonIMG {
   border-radius: 25%;
@@ -35,5 +66,33 @@ div#hhthacker :hover {
 
 div#hhthacker img {
   border-radius: 100%;
-
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+.foottext{
+  background-color: black;
+  color: whitesmoke;
+  margin: 0.5%;
+}
+
+/* Dillons quote styling */
+
+blockquote {
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: whitesmoke;
+  padding: 1.5em 0 0.5em;
+  margin: 1.5em 0;
+  position: relative;
+}
+/* ending */
+

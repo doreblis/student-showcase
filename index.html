@@ -12,7 +12,7 @@
     />
 
     <!-- grid system -->
-    <link rel="stylesheet" href="theme/lib/grid.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="theme/lib/grid.css" type="text/css" /> -->
     <link
       href="https://fonts.googleapis.com/css?family=Syncopate"
       rel="stylesheet"
@@ -27,19 +27,35 @@
 
   <body>
     <header class="header">
+        <a name="top"></a>
       <h1>Welcome to the student showcase!</h1>
     </header>
     <main class="content">
-      <div>
-          <img src="images/el.jpg"  />
+
+      <div id="scroll-nav">
+        <nav>
+          <a href="#dd">Donna Detwieler</a>
+          <a href="#jk">Jo Knightstep</a>
+          <a href="#Fahed">Fahed Sider</a>
+          <a href="#DillyDilly">Dillon Deleacaes</a>
+          <a href="#brandon">Brandon Bunch</a>
+          <a href="#eric">Eric Loux</a>
+          <a href="#hhthacker">Heather Thacker</a>
+        </nav>
       </div>
 
-      <div id="pupu">
-        <a href="dd.html"><img src="images/dd.jpg" alt="Donna" width="200"/></a>
-        <ul>
-          <li><b><i>Donna Detwieler</i></b></li>
-        </ul>
-  
+<br>
+
+      <div id="dd">
+        <a href="dd.html"><img src="dd.jpg" alt="Donna"/></a>
+        <h2> Donna Detwieler </h2>
+
+        <a id="ddemail" href="mailto:ddiscoding@gmail.com">My Email</a> |
+        <a id="ddgithub" href="https://github.com/doreblis">My GitHub</a> |
+        <a id="ddlinkedin" href="https://www.linkedin.com/in/donna-detwieler-024564144/">My LinkedIn</a>
+
+        <p> I am Mother. The word mother is a broad term with linked responsibilities related to giving warmth passion towards their children or family. They are someone who provides our basic needs, emotional needs and guide us all throughout the way. Mothers possess tender love and care towards their families with warm understanding, gentleness and infinite patience. </p>
+        <h4><i>"Silence is golden. Unless, you have kids. Then, silence is suspicious."</i></h4>
       </div>
 
       <div id="jk">
@@ -47,13 +63,25 @@
       </div>
 
       <div id="Fahed">
-    <a href="fahed.html">
-    <img src="https://pbs.twimg.com/profile_images/1126633284098822144/ctZU9frS.png">
-    </a>
+        <a href="fahed/fahed.html">
+        <img src="fahed/images/fahed.jpg" alt="Fahed" width="400"/>
+        </a>
+        <h2><b><u>Fahed Sider</u></b></h2>
       </div>
 
       <div id="DillyDilly">
-        <img src="images/dill.jpg"  />
+        <title>Dillon Deleacaes</title>
+      <a href="dillon.html">
+        <img src="dillon.jpg" height="300px" width="300px"/>
+      </a>
+      <h3>Dillon's Contact Information</h3>
+      <p>Dillon currently works in Sales & Marketing overseeing accounts with the Department of Defense and military installations around the U.S. With taking this course, he hopes to emerge himself within the web development realm, and start a career in front end development. Listed below are a few links to see his professional profiles, and a way to contact him.</p>
+      <ul id="dillcontact">
+        <li><a href="https://github.com/dillondeleacaes">Dillon's GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/dillondeleacaes/">Dillon's LinkedIn</a></li>
+        <li><a id="dillonemail" href="mailto:deleacaesd@gmail.com">Email Me</a></li>
+      </ul>
+      <p id="blockquote"><em><blockquote>"You miss 100% of the shots that you don't take. -Wayne Gretsky" -Michael Scott</em></p></blockquote></p>
       </div>
 
       <div id="brandon">
@@ -61,12 +89,18 @@
           <img id="brandonIMG" src="BrandonBunch/brandonbunch.jpg" alt="Picture of Brandon" width="200">
         </a>
         <h3>Contact Info!</h3>
-        <ul id="brandonContact">
+        <ul>
             <li>Brandon Bunch</li>
             <li>573-714-5311</li>
             <li><a id="brandonEmail" href="mailto:brandon_bunch@icloud.com">brandon_bunch@icloud.com</a></li>
             <p id="brandonQuote">"Programmers are just master Googlers" - Jesse Bunch.</p>
         </ul>
+      </div>
+
+      <div id="eric">
+        <a href="ecl/index.html">
+          <img src="images/EricPicture.jpg">
+        </a>
       </div>
 
       <div id="hhthacker">
@@ -85,6 +119,13 @@
           <em>Bugs are just features waiting to be uncovered ;)</em>
         </p>
       </div>
+
     </main>
   </body>
+
+  <footer >
+    <p class="foottext">SAVVY CODERS</p>
+    <a class="top" href="#top">Back to Top</a>
+    <p class="foottext">&copy;	Savvy Coders Nashville June 2019</p>
+  </footer>
 </html>
